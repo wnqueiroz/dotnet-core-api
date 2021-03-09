@@ -1,4 +1,4 @@
-# csharp-api
+# dotnet-core-api
 
 An API created with .NET Core 5 and Entity Framework (in memory).
 

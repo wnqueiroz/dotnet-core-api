@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZQ/JqSZEp52zM3zW343W5vuUS35CiI1fCLB3CKLJtC43UqTTrDy3VCnyBMM7J2lqd3YIn3NLEHvT46nDtyYeA==",
+  "dgSpecHash": "9X1v4YpkKnGPBv1SAXr/rvl8q4Qh8/SKz6rbU/mA2OFNar0YnHgh44fBQjizLJzO9RxNwk9E2LoNKrwyU43ZJA==",
   "success": true,
-  "projectFilePath": "/Users/william.queiroz/Documents/personal/github/csharp-api/csharp-api.csproj",
+  "projectFilePath": "/Users/william.queiroz/Documents/personal/github/dotnet-core-api/dotnet-core-api.csproj",
   "expectedPackageFiles": [
     "/Users/william.queiroz/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0/microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "/Users/william.queiroz/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/5.0.0/microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",

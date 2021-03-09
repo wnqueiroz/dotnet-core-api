@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace csharp_api.Models
+namespace DotnetCoreApi.Models
 {
     public class Product
     {

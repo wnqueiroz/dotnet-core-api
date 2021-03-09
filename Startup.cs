@@ -12,9 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using csharp_api.Data;
+using DotnetCoreApi.Data;
 
-namespace csharp_api
+namespace DotnetCoreApi
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace csharp_api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "csharp_api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DotnetCoreApi", Version = "v1" });
             });
         }
 
@@ -44,7 +44,7 @@ namespace csharp_api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "csharp_api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DotnetCoreApi v1"));
             }
 
             app.UseRouting();

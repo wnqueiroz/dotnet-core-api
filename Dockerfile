@@ -16,4 +16,4 @@ WORKDIR /usr/src/app
 
 COPY --from=build /source/out .
 
-ENTRYPOINT ["dotnet", "csharp-api.dll"]
+ENTRYPOINT ["dotnet", "dotnet-core-api.dll"]

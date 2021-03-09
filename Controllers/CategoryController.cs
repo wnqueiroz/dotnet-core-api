@@ -2,11 +2,11 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using csharp_api.Data;
-using csharp_api.Models;
+using DotnetCoreApi.Data;
+using DotnetCoreApi.Models;
 using System.Linq;
 
-namespace csharp_api.Controllers
+namespace DotnetCoreApi.Controllers
 {
     [ApiController]
     [Route("v1/categories")]
